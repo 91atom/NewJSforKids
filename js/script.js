@@ -1,14 +1,16 @@
-let paragraf = document.querySelector("p");
-paragraf.addEventListener("click", function (evt) {
-evt.preventDefault();
-paragraf.classList.toggle("green");
-});
-/*
+var secondsInAMinute = 60;
+var minutesInAnHour = 60;
+var secondsInAnHour = secondsInAMinute * minutesInAnHour;
+console.log(secondsInAnHour);
 
-function myFunction() {
-let paragraf = document.querySelector("p");
+var hoursInADay = 24;
+var secondsInADay = secondsInAnHour * hoursInADay;
+console.log(secondsInADay);
 
-paragraf.classList.toggle("green");
-}
+var daysInAYear = 365;
+var secondsInAYear = secondsInADay * daysInAYear;
+console.log(secondsInAYear);
 
-*/
+var age = 29;
+console.log(age * secondsInAYear);
+
