@@ -14,3 +14,12 @@ console.log(secondsInAYear);
 var age = 29;
 console.log(age * secondsInAYear);
 
+var highFives = 0;
+++highFives;
+
+
+
+
+let a = function(b) {
+	if (b === true )
+};
